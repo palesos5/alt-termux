@@ -37,4 +37,5 @@ distro_setup() {
 	run_proot_cmd sh -c 'echo "PORTAGE_TMPDIR=\"/tmp\"" >> /etc/portage/make.conf'
 	run_proot_cmd sh -c 'echo "PORTAGE_INST_GID=0" >> /etc/portage/make.conf'
 	run_proot_cmd sh -c 'echo "PORTAGE_INST_UID=0" >> /etc/portage/make.conf'
+	run_proot_cmd emerge-websync
 }
