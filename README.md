@@ -1,4 +1,4 @@
-# My Proot Distro Repository
+# Custom Proot Distro Repository
 
 A collection of Proot Distro configurations for different Linux distributions. This repository provides easy-to-install configurations that can be used with Termux's `proot-distro` command.
 
