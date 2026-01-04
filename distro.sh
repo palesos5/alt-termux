@@ -1,4 +1,4 @@
-distros=("Alpine" "alt" "gentoo" "postmarketOS" "void" "voidmusl")
+distros=("alpine" "alt" "gentoo" "postmarketOS" "void" "voidmusl")
 
 echo "Select a distribution:"
 
